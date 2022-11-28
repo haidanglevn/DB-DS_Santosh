@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+/* HOMEPAGE */
+a {text-decoration: none;}
+.home {
+  background-color: #ffe900;
+  height: 100vh;
+  
+}
+.page-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6D2E46;
+  width: 350px;
+  height: 350px;
+  border-radius: 50px;
+}
+.page-nav:hover {
+  cursor: pointer;
+  transform: scale(1.015, 1.015);
+}
+.page-nav h1 {
+  color: #ffe900;
+}
+
+/* PALINDROME  */
+.palindrome {
+  background-color: #ffe900;
+  height: 100vh;
+  color: #ffe347;
+  font-size: 20px;
+}
+.context {
+  background-color: #0B2027;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:10vh 20vw;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+.palindrome input {
+  display: block;
+  width: 500px;
+  text-align: center;
+  font-size: 24px;
+}
+.palindrome button {
+  font-size: 30px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #6D2E46;
+  color: white;
+}
