@@ -23,6 +23,13 @@ const Home = () => {
             </div>
           </Link>
         </div>
+        <div className="page-nav">
+          <Link to="/stack" className="page-nav-page palindrom-page">
+            <div className="page-nav-title">
+              <h1>Stack Data Structure</h1>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   );

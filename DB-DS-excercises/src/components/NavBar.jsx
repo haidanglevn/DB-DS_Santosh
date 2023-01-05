@@ -13,6 +13,7 @@ const NavBar = () => {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/palindrom">Palindrom</NavLink>
         <NavLink to="/bubble">Bubble Sort</NavLink>
+        <NavLink to="/stack">Stack Data Structure</NavLink>
       </div>
     </div>
   );
