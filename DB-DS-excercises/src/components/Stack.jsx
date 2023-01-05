@@ -65,8 +65,7 @@ const Stack = () => {
         />
         <button onClick={createArr}>Create</button>
         <h2>Your current stack is: {renderStack()} </h2>
-        <h2>Stack length is: {stackArr.length} </h2>
-        <h2>Your current top is: {top} </h2>
+        <h2>Current top position is: {top} </h2>
         <label htmlFor="push">Push into stack this value:</label>
         <input
           type="number"
