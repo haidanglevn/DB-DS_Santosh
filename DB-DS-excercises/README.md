@@ -5,7 +5,6 @@ This app is a hub for all the exercises of DB - DS class in Business College. Th
 The exercises are: 
 - Palindrome checker
 - Bubble Sort
-- Selection Sort
 - Stack Data Structure 
 - Queue Data Structure
 
